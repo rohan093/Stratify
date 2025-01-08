@@ -1,0 +1,135 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff99ac;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #ffdee9, #b5fffc);
+  color: #333;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #ffdee9;
+  color: #000;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #6a11cb;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background: #ffe7e3;
+}
+
+tr:hover {
+  background: #ffd1cf;
+  transition: background 0.3s ease;
+}
+
+td a {
+  padding: 8px 15px;
+  margin: 0 5px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+td a:first-child {
+  background: green;
+}
+
+td a:last-child {
+  background: red;
+}
+
+td[colspan="5"] {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+a[href="add_task.html"] {
+  margin: 20px auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  background: pink;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form input,
+form select,
+form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button {
+  background-color: #fd7d78;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  font-weight: bold;
+}
